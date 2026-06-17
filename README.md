@@ -55,3 +55,30 @@ High-level layers:
 ## Status
 
 Current stage: Chapter 1 — problem framing and repository setup.
+
+## Development workflow
+
+This project follows the Discover, Play, Develop, Deploy workflow.
+
+Current engineering setup:
+
+- GitHub version control
+- Feature branch workflow
+- Pull requests
+- Makefile commands
+- Pytest tests
+- GitHub Actions CI
+
+## Commands
+
+Install dependencies:
+
+    make install
+
+Run tests:
+
+    make test
+
+Show project files:
+
+    make tree
