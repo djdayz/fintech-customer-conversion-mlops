@@ -1,5 +1,31 @@
 # Initial System Design
 
+## Chapter 1 architecture sketch
+
+```text
+Customer / campaign data
+        |
+        v
+Data cleaning and validation
+        |
+        v
+Feature engineering pipeline
+        |
+        v
+Model training and evaluation
+        |
+        v
+MLflow experiment tracking
+        |
+        v
+Saved model artifact
+        |
+        v
+FastAPI prediction service
+        |
+        v
+Prediction: subscribe / not subscribe
+
 ## System type
 
 This project will use a classification pipeline with offline training and online inference.
