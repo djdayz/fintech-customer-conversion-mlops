@@ -1,30 +1,35 @@
 # Initial System Design
 
+## Chapter 1 architecture sketch
+
+```text
+Customer / campaign data
+        |
+        v
+Data cleaning and validation
+        |
+        v
+Feature engineering pipeline
+        |
+        v
+Model training and evaluation
+        |
+        v
+MLflow experiment tracking
+        |
+        v
+Saved model artifact
+        |
+        v
+FastAPI prediction service
+        |
+        v
+Prediction: subscribe / not subscribe
+```
+
 ## System type
 
 This project will use a classification pipeline with offline training and online inference.
-
-## High-level architecture
-
-```text
-Raw data
-   ↓
-Data validation and cleaning
-   ↓
-Feature engineering and preprocessing
-   ↓
-Model training
-   ↓
-Model evaluation
-   ↓
-Experiment tracking with MLflow
-   ↓
-Model persistence
-   ↓
-FastAPI inference service
-   ↓
-Prediction response
-```
 
 ## Storage layer
 
@@ -41,10 +46,10 @@ The storage layer contains:
 The compute layer contains:
 
 - Data loading code
-- Preprocessing pipeline
-- Model training code
-- Model evaluation code
-- Hyperparameter tuning code
+- Data cleaning and validation
+- Feature engineering and preprocessing
+- Model training
+- Model evaluation
 - Prediction logic
 
 ## Application layer
