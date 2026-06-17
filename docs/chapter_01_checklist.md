@@ -1,14 +1,14 @@
-# Chapter 1 Checklist — Introduction to ML Engineering
+# Chapter 1 Checklist - Introduction to ML Engineering
 
 ## What I need to understand
 
-- [ ] Difference between data scientist, ML engineer, MLOps engineer, and data engineer
-- [ ] Why ML engineering is about productionisation, not just modelling
-- [ ] What an ML solution looks like: storage layer, compute layer, application layer
-- [ ] Difference between batch, API, and streaming ML systems
-- [ ] Why ML is not always the right solution
-- [ ] How this project creates business value
-- [ ] How to explain this project in an interview
+- [x] Difference between data scientist, ML engineer, MLOps engineer, and data engineer
+- [x] Why ML engineering is about productionisation, not just modelling
+- [x] What an ML solution looks like: storage layer, compute layer, application layer
+- [x] Difference between batch, API, and streaming ML systems
+- [x] Why ML is not always the right solution
+- [x] How this project creates business value
+- [x] How to explain this project in an interview
 
 ## Project decisions
 
